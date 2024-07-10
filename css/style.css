@@ -1,19 +1,20 @@
-
-
 /* common style */
 .azeret-mono{
     font-family: "Azeret Mono", monospace;
     font-optical-sizing: auto;
     font-style: normal;
   }
-
+.section-title{
+    font-size: 30px;
+    font-weight: bolder;
+    color: #0D1321;
+}
 
 
 /* header section design start */
 .banner{
     width: auto;
-    height: 550px ;
-    margin: 50px 0px 0px;
+    height: auto ;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -21,6 +22,9 @@
 }
 .banner{
     background-image: url('../assets/Hero-bg.png');
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background-size: cover;
 }
 .banner-title{
     font-weight: bolder;
@@ -36,10 +40,67 @@
 
 }
 .btn-primary{
-    padding:15px ;
+    padding:20px 10px 20px 10px ;
     width: 180px;
     background-color: #0D1321;
     color: #FFFFFF;
     border-radius: 5px;
     margin-bottom: 10px;
+    font-weight: bolder;
+    font-size: 14px;
+}
+
+/* why dev section design */
+.WhyDev{
+    display: flex;
+    row-gap: 20px;
+    flex-direction: column;
+    align-items: center;
+    margin: 70px 130px 130px 130px ;
+    background-color: #fafafa;
+    padding: 1% 5% 5% 5%;
+    border-radius: 10px;
+}
+.WhyDevDescription{
+    display: flex;
+    justify-content: space-around;
+    gap: 90px;
+    padding: 1% 3% 1% 3%;
+    text-align: justify;
+    background-color: rgb(255, 255, 255, 90%);
+}
+
+.WhyDevDescription1{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    gap: 32px;
+    padding: 1% 3% 1% 3%;
+    text-align: justify;
+    background-color: rgb(255, 255, 255, 90%);
+}
+
+.WhyDevContent , .WhyDevTitle{
+    padding: 1% 3% 1% 3%;
+    
+}
+.WhyDevContent{
+    color: rgb(13, 19, 36, 70%);
+    font-size: 10px ;
+}
+.WhyDevMainTitle{
+    color: rgb(13, 19, 36, 70%);
+    font-size: 18px;
+}
+.WhyDevMainDes{
+    color: rgb(13, 19, 36, 70%);
+    font-size: 10px;
+}
+.WhyDevMainBtn{
+    padding: 7px 10px 7px 10px;
+    background-color: rgb(238, 232, 232, 25%);
+    border-color:rgb(13, 19, 36, 70%);
+    border-radius: 2px;
+    margin-top: 15px ;
+    
 }
