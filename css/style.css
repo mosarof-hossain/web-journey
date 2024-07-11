@@ -10,6 +10,21 @@
     color: #0D1321;
 }
 
+/* header-top optional*/
+.header-top{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px  150px;
+    font-size: 20px;
+
+}
+.download-btn{
+    padding: 12px 24px 12px 24px;
+    margin: 25px 0px 0px 0px;
+    border-radius: 5px;
+    border-color:rgb(13, 19, 36, 70%);
+    background-color:#FFFFFF;
+}
 
 /* header section design start */
 .banner{
@@ -127,13 +142,6 @@ iframe{
     border-radius: 15px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 10);
 }
-
-
-.do{
-    margin: 10% 15% 0% 15%;
-    text-align: center;
-}
-
 
 /* Current Target Section Design */
 .current-target{
