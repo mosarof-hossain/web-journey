@@ -26,7 +26,7 @@
     background-color:#FFFFFF;
 }
 
-/* header section design start */
+/* header banner section design start */
 .banner{
     width: auto;
     height: auto ;
@@ -52,6 +52,7 @@
     font-size: 12px;
     margin: 0% 20% 2% 20%;
     text-align: center;
+    line-height: 1.5;
 
 }
 .btn-primary{
@@ -72,6 +73,7 @@
     flex-direction: column;
     align-items: center;
     margin: 70px 130px 130px 130px ;
+    line-height: 1.5;
     background-color: #fafafa;
     padding: 1% 5% 5% 5%;
     border-radius: 10px;
@@ -80,6 +82,7 @@
     display: flex;
     justify-content: space-around;
     gap: 90px;
+    line-height: 1.5;
     padding: 1% 3% 1% 3%;
     text-align: justify;
     background-color: rgb(255, 255, 255, 90%);
@@ -90,6 +93,7 @@
     justify-content: space-between;
     flex-direction: row-reverse;
     gap: 32px;
+    line-height: 1.5;
     padding: 1% 3% 1% 3%;
     text-align: justify;
     background-color: rgb(255, 255, 255, 90%);
@@ -137,6 +141,7 @@
 .inspiration-description{
     text-align: center;
     font-size: 12px;
+    line-height: 1.5;
 }
 iframe{
     border-radius: 15px;
@@ -168,6 +173,8 @@ iframe{
 .current-target-des1{
     font-size: 12px;
     text-align: center;
+    line-height: 1.5;
+    
 }
 .bg-html{
     background-color: rgb(255, 76, 30, 5%);
@@ -181,6 +188,7 @@ iframe{
 .current-target-des{
     font-size: 12px;
     text-align: justify;
+    line-height: 1.5;
 }
 
 /* support section design */
@@ -203,6 +211,7 @@ iframe{
 .section-des{
     text-align: center;
     font-size: 12px;
+    line-height: 1.5;
 }
 .feedback{
     padding: 15px 200px 15px 19px ;
