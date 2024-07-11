@@ -110,10 +110,43 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 70px 130px 130px 130px ;
+    margin: 7% 13% 12% 13% ;
     
 }
 .inspiration-video{
     border-radius: 10px;
-    padding: 10px;
+    padding: 25px;
+    border: 2px solid rgb(13, 19, 33, 20%);
+    
+}
+.inspiration-description{
+    text-align: center;
+}
+iframe{
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 10);
+}
+
+
+.do{
+    margin: 10% 15% 0% 15%;
+    text-align: center;
+}
+
+/* Skill Section Design */
+.skill-container{
+    display: flex;
+    margin: 9% 10% 0 10%;
+    gap: 5%;
+    justify-content: space-around;
+  
+}
+.skill-description{
+    text-align: justify;
+}
+.skill{
+    border: none;
+    border-radius: 1%;
+    box-shadow: 0px 5px 10px 0px rgb(0%, 0%, 6%);
+    padding: 2%;
 }
