@@ -110,7 +110,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 7% 13% 12% 13% ;
+    margin: 5% 13% 12% 13% ;
     
 }
 .inspiration-video{
@@ -182,7 +182,7 @@ iframe{
     overflow: hidden;
     background-position: center;
     background-size: cover;
-    margin: 7% 13% 12% 13% ;
+    margin: 7% 13% 5% 13% ;
     padding: 3% 5% 2% 5% ;
     height: 10%;
     color: #fafafa;
@@ -213,4 +213,19 @@ iframe{
 .input-btn{
     display: flex;
     gap: 10px;
+}
+
+/* footer section design */
+.footer-section{
+    display: flex;
+    justify-content: space-between;
+    background-color: #fafafa;
+    padding: 10px 175px 10px 175px;
+}
+.footer-icon{
+    font-size:30px;
+    padding: 15px 20px ;
+}
+.footer-titleD{
+    font-size: 20px;
 }
